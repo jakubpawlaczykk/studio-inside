@@ -1,1 +1,147 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Studio Inside | Projektowanie budynków i wnętrz</title>
+  <meta name="description" content="Studio Inside — projektowanie budynków, wnętrz, koncepcje, wizualizacje i kompleksowa obsługa projektu." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header" id="top">
+    <a href="#top" class="logo" aria-label="Studio Inside">
+      <span class="logo-mark">SI</span>
+      <span class="logo-text">
+        <strong>Studio Inside</strong>
+        <small>projektowanie budynków i wnętrz</small>
+      </span>
+    </a>
 
+    <button class="menu-btn" aria-label="Otwórz menu" aria-expanded="false">
+      <span></span><span></span>
+    </button>
+
+    <nav class="nav">
+      <a href="#onas">O nas</a>
+      <a href="#oferta">Oferta</a>
+      <a href="#realizacje">Realizacje</a>
+      <a href="#proces">Proces</a>
+      <a href="#kontakt">Kontakt</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section-pad">
+      <div class="hero-content reveal">
+        <p class="eyebrow">Pracownia projektowania budynków i wnętrz</p>
+        <h1>Przestrzenie zaprojektowane z klasą.</h1>
+        <p class="lead">Tworzymy nowoczesne projekty domów, mieszkań i wnętrz. Łączymy funkcję, estetykę, światło, materiały i wygodę codziennego użytkowania.</p>
+        <div class="hero-actions">
+          <a href="#realizacje" class="btn primary">Zobacz realizacje</a>
+          <a href="#kontakt" class="btn secondary">Porozmawiajmy</a>
+        </div>
+      </div>
+      <div class="hero-image reveal">
+        <img src="ChatGPT Image 16 cze 2026, 13_50_59 (2).png" alt="Nowoczesne wnętrze Studio Inside" />
+      </div>
+    </section>
+
+    <section id="onas" class="about section-pad reveal">
+      <div class="section-label">O nas</div>
+      <div class="split">
+        <h2>Projektujemy budynki i wnętrza, które wyglądają dobrze i działają na co dzień.</h2>
+        <div>
+          <p>Studio Inside prowadzi projekt od pierwszej rozmowy po gotową koncepcję. Stawiamy na spokojną elegancję, dopracowane proporcje i praktyczne rozwiązania.</p>
+          <p>Dbamy o układ funkcjonalny, materiały, oświetlenie i detale, dzięki czemu przestrzeń jest spójna, wygodna i dopasowana do stylu życia inwestora.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="oferta" class="offer section-pad reveal">
+      <div class="section-label">Oferta</div>
+      <div class="split top">
+        <h2>Zakres współpracy dobieramy do potrzeb projektu.</h2>
+        <p>Możemy przygotować koncepcję, projekt kompleksowy, wizualizacje albo pomóc w najważniejszych decyzjach dotyczących układu, elewacji, materiałów i wyposażenia.</p>
+      </div>
+
+      <div class="cards">
+        <article class="card"><span>01</span><h3>Koncepcja budynku</h3><p>Układ bryły, funkcji, proporcji i kierunku stylistycznego inwestycji.</p></article>
+        <article class="card"><span>02</span><h3>Projekt wnętrza</h3><p>Spójny projekt mieszkania, domu, salonu, kuchni, łazienki lub strefy dziennej.</p></article>
+        <article class="card"><span>03</span><h3>Wizualizacje</h3><p>Realistyczne kadry, które pomagają zobaczyć efekt przed realizacją.</p></article>
+        <article class="card"><span>04</span><h3>Konsultacje</h3><p>Wsparcie przy wyborze układu, kolorów, materiałów, oświetlenia i wyposażenia.</p></article>
+      </div>
+    </section>
+
+    <section id="realizacje" class="projects section-pad reveal">
+      <div class="section-label">Realizacje</div>
+      <div class="split top">
+        <h2>Wybrane projekty</h2>
+        <p>Przykładowe kadry do portfolio: budynki, wnętrza, kuchnie i strefy dzienne utrzymane w ciepłej, nowoczesnej estetyce.</p>
+      </div>
+
+      <div class="filters">
+        <button class="active" data-filter="all">Wszystkie</button>
+        <button data-filter="budynki">Budynki</button>
+        <button data-filter="wnetrza">Wnętrza</button>
+        <button data-filter="kuchnie">Kuchnie</button>
+      </div>
+
+      <div class="project-grid">
+        <article class="project" data-category="wnetrza">
+          <img src="ChatGPT Image 16 cze 2026, 13_50_59 (2).png" alt="Projekt eleganckiego wnętrza" />
+          <div><span>Wnętrze</span><h3>Jasna strefa dzienna</h3></div>
+        </article>
+        <article class="project" data-category="budynki">
+          <img src="ChatGPT Image 16 cze 2026, 13_50_59 (3).png" alt="Projekt nowoczesnego budynku" />
+          <div><span>Budynek</span><h3>Nowoczesna rezydencja</h3></div>
+        </article>
+        <article class="project" data-category="wnetrza">
+          <img src="ChatGPT Image 16 cze 2026, 13_50_59 (4).png" alt="Projekt nowoczesnego salonu" />
+          <div><span>Salon</span><h3>Ciepło, kamień i drewno</h3></div>
+        </article>
+        <article class="project" data-category="kuchnie">
+          <img src="ChatGPT Image 16 cze 2026, 13_50_59 (5).png" alt="Projekt kuchni z jadalnią" />
+          <div><span>Kuchnia</span><h3>Elegancja w prostych formach</h3></div>
+        </article>
+      </div>
+    </section>
+
+    <section id="proces" class="process section-pad reveal">
+      <div class="section-label">Proces</div>
+      <h2>Od rozmowy do gotowej koncepcji</h2>
+      <div class="steps">
+        <article><span>01</span><h3>Poznanie potrzeb</h3><p>Rozmawiamy o stylu życia, metrażu, budżecie i oczekiwanym klimacie projektu.</p></article>
+        <article><span>02</span><h3>Koncepcja i układ</h3><p>Tworzymy kierunek projektowy, układ funkcjonalny i bazę stylistyczną.</p></article>
+        <article><span>03</span><h3>Projekt i wizualizacje</h3><p>Dopracowujemy materiały, kolory, zabudowy, oświetlenie i efekt końcowy.</p></article>
+      </div>
+    </section>
+
+    <section id="kontakt" class="contact section-pad reveal">
+      <div>
+        <div class="section-label">Kontakt</div>
+        <h2>Porozmawiajmy o Twoim projekcie.</h2>
+        <p>Napisz, czego dotyczy projekt, jaki metraż obejmuje przestrzeń i na jakim etapie jesteś. Przygotujemy zakres współpracy dopasowany do Twoich potrzeb.</p>
+      </div>
+      <div class="contact-box">
+        <p><strong>Telefon</strong><br><a href="tel:000000000">000 000 000</a></p>
+        <p><strong>E-mail</strong><br><a href="mailto:kontakt@studioinside.pl">kontakt@studioinside.pl</a></p>
+        <p><strong>Social media</strong><br><a href="#">Facebook / Instagram</a></p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div>
+      <strong>Studio Inside</strong>
+      <p>Projektowanie budynków, wnętrz, koncepcje, wizualizacje i konsultacje.</p>
+    </div>
+    <p>© Studio Inside. Projektowanie budynków i wnętrz.</p>
+  </footer>
+
+  <button class="to-top" aria-label="Wróć do góry">↑</button>
+  <script src="script.js"></script>
+</body>
+</html>
